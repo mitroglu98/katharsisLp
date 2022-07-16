@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <title>Katharsis LP</title>
+</head>
+<body>
+    
+    
+ <div class="header">
+    <label class="l1">
+        <input type="checkbox">
+        <span onclick="topFunction()" class="menu"> <span class="hamburger"></span> </span>
+        <ul>
+            <li><a class="goto" href="#bo">Ponuda</a></li>
+            <li><a  class="goto"href="#au">O nama</a></li>
+            <li><a class="goto" href="#oo">Prodaja</a></li>
+            <li><a class="goto" href="#co">Kontakt</a></li>
+        </ul>
+        </label>
+        <label class="l2">
+            <span class="menu">  <select class="langg" name="language" onchange="countryHandler(this.value)">
+                <option class="opt" value="none" selected disabled hidden>Lang</option>
+                <option class="opt" onclick="window.location.assign('home.html')">MNE</option> 
+                <option class="opt" onclick="window.location='index.html'">ENG</option> 
+              </select> </span>
+
+        </label>
+    <ul class="headerUl">
+        <li class="headerLi" ><a href="#bo">Ponuda</a></li>
+        <li class="headerLi" ><a href="#au">O nama</a></li>
+        <li class="headerLi" ><a href="#oo">Prodaja</a></li>
+        <li class="headerLi" ><a href="#co">Kontakt</a></li>
+        <select class="langg" name="language" onchange="countryHandler(this.value)">
+            <option value="none" selected disabled hidden>Jezik</option>
+            <option onclick="window.location.assign('home.html')">MNE</option> 
+            <option onclick="window.location='index.html'">ENG</option> 
+          </select> 
+      </ul>
+    
+        <video  autoplay="autoplay" loop="loop" muted="" data-autoplay="" playsinline=""class="video">
+            <source src="./Images/cropped.mp4" type="video/mp4">
+            <source src="./Images/cropped.mp4" type="video/ogg">
+            Vas pretrazivac ne podrzava video tab.
+          </video>
+          <div class="hello">
+            <marquee direction="right" scrollamount="7" loop="1" behavior="slide" class="marka">Katharsis Wellness & Health</marquee>
+            <!-- <marquee direction="right" scrollamount="7" loop="1" behavior="slide"class="hoVb">Home of wellbeing</marquee> -->
+          </div>   
+          
+      
+
+    </div>
+
+    <div class="bestOffer" id="bo">
+        <p class="aboutBestOffer">Total Body Design</p>
+        <p class="aboutBestOffer2">centar za oblikovanje tijela</p>
+        <p class="naslov">NAJBOLJA PONUDA</p>
+        <div class="leftSide">
+            <p class="bestOfferOpis">Pobrinućemo da se oslobodite nepravilnosti na Vašem tijelu zahvaljujući stručnom kadru, vrhunskim uređajima i djelotvornim tretmanima. Zatezanje kože tijela, smanjenje obima kritičnih područja i masnih naslaga, redukcije celulita moguće je pomoću neinvazivnih procedura:</p>
+            <ul class="rightSideUL">
+                <li class="rightSideLi">* Endosfera terapija</li>
+                <li class="rightSideLi">* LPG tretmani </li>
+                <li class="rightSideLi">* Limfna drenaza</li>
+                <li class="rightSideLi">* Kavitacija</li>
+                <li class="rightSideLi">* Pakovanja tijela</li>
+        
+            </ul>
+            
+
+        </div>
+
+        <div class="rightSide" style="margin-top:-3%;">
+            <video autoplay="autoplay" loop="loop" muted="" data-autoplay="" playsinline=""class="endosphere">
+                <source src="./Images/Endosphere.mp4" type="video/mp4">
+                <source src="./Images/Endosphere.mp4" type="video/ogg">
+              </video>
+            
+
+        </div>
+
+
+    </div>
+
+    <div class="aboutUs" id="au">
+
+        <div class="leftSide">
+            <p class="aboutNaslov" > O NAMA</p>
+            <p class="about">Koncept KATHARSIS Wellness & Health započet je 1998. godine. Usko fokusiran i primjenjiv u hotelskoj ponudi je od 2006. što ga čini pionirom u Crnoj Gori kada je wellness ponuda u pitanju. KATHARSIS Wellness & Health danas predstavlja jedan od najboljih primjera integrisanog i holističkog pristupa wellness uslugama, estetskim inovativnim procedurama i fizikalnoj rehabilitaciji. Zasniva se na pružanju usluga visokog kvaliteta (terpeutskih i wellness masaža, estetskih tretmana, kvantne dijagnostike i nutricionizma, fizikalne rehabilitacije i fizičke aktivnosti) i na individualno osmišljenim programima njege lica i tijela (anti-aging, detox, slimming itd.). U sklopu Katharsisa radi nas Centar za rehabilitaciju i estetiku od 2016. god.
+                </p>
+        </div>
+
+        <div class="rightSide">
+        
+            <img class="aboutSlika" src="./Images/logo.png" /> 
+        </div>
+
+
+    </div>
+
+    <div class="ourOffer" id="oo"> 
+    <p class="ourOfferr">PRODAJNA PONUDA</p>
+    <p class="ourOfferOpis"> Neinvazivni tretmani lica, tretmani oblikovanja tijela i wellness ponuda je sve
+        sto vam je potrebno za tijelo kojim ste zadovoljni, kao i mladalacki izgled lica.</p>
+
+
+        <div class="row"> 
+            <div class="column">
+                <img  src="./Images/Diagnosis and dietetics.jpg">
+                <div class="centered" id="myImg"> Dijagnostika i dijetetika <p>Kliknite ovdje za vise informacija</p> </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+ 
+                    <div class="modal-content" id="img01">
+                    <p class="modalOpis">
+                        Kalorije u odnosu na BIA izvještaj.BIA dijagnostika, dijagnostika funkcionalno-energetskog stanja tijela, test intolerancije na hranu, individualna preporuka za ishranu.
+                    </p>
+                    </div>
+
+                    <div id="caption">Diagnosis and dietetics</div>
+                  </div>
+            </div>
+            <div class="column"> 
+    <img src="./Images/Medical cosmetology.jpg"> 
+        <div class="centered" id="myImg2">Kozmetologija <p>Kliknite ovdje za vise informacija</p></div>
+        <div id="myModal2" class="modal">
+
+            <span class="close">&times;</span>
+
+            <div class="modal-content" id="img01">
+            <p class="modalOpis">
+                <strong>Global lift</strong> – redefiniše lice na ključnim mjestima podbradak, vrat, jagodice i nadoknađuje izgubljeni volumen, vraćajući mladalačku konturu lica.
+               <br>
+                <strong> Corrective</strong> – Stimuliše prirodni mehanizam kože kako bi zamijenila izgubljeni volumen. Koriguje duboke bore i izražajne linije brzo i efikasno. Tretman pruža novu moć pilinga, veću snagu punjenja i jače sprječavanje kontrakcija.
+               <br>
+                <strong>Timeless prodigy </strong>- Luksuz i nauka se udružuju da bi stvorili ovaj čudesni anti-ageing tretman. Ovaj ekskluzivni tretman je inspirisan najprefinjenijim tehnikama ljepote. Pogodan za sve tipove kože i formulisan sa preko 25 visoko koncentrovanih sastojaka, izabranih da blokiraju proces starenja. <a href="https://skeyndor.com/en/">Procitaj vise</a>
+            </p>
+            </div>
+
+            <div id="caption2">Kozmetologija</div>
+          </div>
+
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="column"> 
+                <div class="centered" id="myImg3"> Centar za oblikovanje tijela<p>Kliknite ovdje za vise informacija</p></div>
+                <img src="./Images/Body shaping center.jpg"> 
+                <div id="myModal3" class="modal">
+
+                    <span class="close">&times;</span>
+        
+                    <div class="modal-content" id="img01">
+                    <p class="modalOpis">
+                        <strong>LPG</strong>- Oblikovanje tijela, zatezanje kože, drenaža, zadržavanje vode, elastičnost kože, relaksacija, smanjenje masnoće, smanjenje celulita. <a href="https://www.endermologie.com/en/">Procitaj vise</a>
+                        <br>
+                        <strong>Endosfera </strong>  terapija je inovativna procedura lica i tijela, koja daje fantastične razultate kod podmlađivanja lica,vrata i dekoltea, kao i kod oblikovanja tijela, povećanja tonusa, redukcije celulita. <a href="https://www.endospheres.com/">Procitaj vise</a>
+                        Specijalno kreirani tretmani tijela- koji će kroz pakovanja i masaže pomoći u borbi protiv celulita doprinijeti zatezanju i oblikovanju tijela i dostizanje željene figure.
+                        <br>
+                        <strong>CO2 terapija </strong>- arbofit koristi pozitivan efekat ugljen-dioksida omogućavajući da tkiva budu bolje snadbjevena kiseonikom i hranjivim materijama što ubrzava process regeneracije. Koristi se kod: poremećaja cirkulacije, sportske rehabilitacije, programa za mršavljenje.
+                       <br>
+                       <strong>Kavitacija</strong>je neinvazivni, potpuno bezbjedan i bezbolan tretman uklanjanja celulita i masnih naslaga.
+                    </p>
+                    </div>
+        
+                    <div id="caption3">Centar za oblikovanje tijela</div>
+                  </div>
+            </div>
+            <div class="column">
+                <div class="centered" id="myImg4"> Wellness<p>Kliknite ovdje za vise informacija</p></div>
+            <img src="./Images/Wellness.jpg"> 
+            <div id="myModal4" class="modal">
+
+                <span class="close">&times;</span>
+    
+                <div class="modal-content" id="img01">
+                <p class="modalOpis">
+                    Dozvolite sebi da uživate u raznovrsnoj ponudi našim masaža. Za osjetljiva i bolna stanja rješenje su terapeutske-medicinske masaže, za sve one koji su aktivnog životnog stila preporučujemo sportsku i katharsis masažu. A za buđenje Vaših čula izaberite različite masaže i rituale:
+                    <br> 
+                    <strong>SPA EXPERIENCE </strong>- Kombinacija arome bambusa, cvijeta lotosa i lokvanja uz kombinaciju pokreta omogućiće stanje dubokog mira i ravnoteže.
+                    <br> 
+                    <strong> MEDITERRANEAN ORIGINS</strong>- (masažna krema sa ekstraktom kanabisa, ši buterom i kapsulama vitamina E, koje se rastvaraju imaće umirujući i antiinflamatorni efekat na kožu.)
+                </p>
+                </div>
+    
+                <div id="caption4">Wellness</div>
+              </div>    
+            </div>
+
+            <div class="columnn">
+                <div class="centered" id="myImg5"> FIZIKALNA TERAPIJA I REHABILITACIJA<p>Kliknite ovdje za vise informacija</p></div>
+            <img src="./Images/doktor.png"> 
+            <div id="myModal5" class="modal">
+
+                <span class="close">&times;</span>
+    
+                <div class="modal-content" id="img01">
+                <p class="modalOpis">
+                    Riješite problem: bolova u kičmi (vratnoj, lumbalnoj, grudnoj ), diskus hernije, išijagije, radikulopatije uz najsavremeniji pristup, sa najboljim efektima liječenja koje imamo u ponudi </p> 
+        <ul >
+            <li> <span> akupunktura</span></li>
+            <li> <span>kiropraktika</span></li>
+            <li> <span>infiltracije hijaluronom</span></li>
+            <li><span>kolagenom</span> </li>
+            <li> <span>terapija vitaminima</span></li>
+            <li> <span>mezoterapija bola - PROLO terapija</span></li>
+            <li> <span>plazma PRP</span></li>
+        </ul>   
+                </p>
+                </div>
+    
+                <div id="caption5"> Fizikalna terapija i rehabilitacija</div>
+              </div>    
+            </div>
+        </div>
+
+       
+           
+       
+
+
+
+    </div>
+
+   
+  
+<div class="contactUs" id="co"> 
+   
+  <div class="holy-grail">
+  <div class="holy-grail-body">
+    
+
+<div class="holy-grail-content">
+    <p class="cu"> Kontaktirajte nas </p>
+    <div class="info">
+        
+        <a class="ii" href="tel:+382 33 474 500"> <i class="fa fa-fax"></i>+382 33 474 500 </a>
+        <a class="ii" href="tel:+382 69 982 004"> <i class="fa fa-phone"></i> +382 69 982 004</a>
+        <a class="ii" href="mailto:mijatovicmitar71@gmail.com"> <i class="fa fa-envelope"></i> katharsismontenegro@gmail.com </a>
+        <a class="ii" href="https://www.google.com/maps/place/Katharsis+Wellness+%26+Health/@42.2869113,18.8438101,15z/data=!4m5!3m4!1s0x0:0x3f4ac1265ec0d4b0!8m2!3d42.2869113!4d18.8438101?hl=sr"> <i class="fa fa-map-marker" aria-hidden="true"></i> Hotel Slovenska Plaza, Budva </a>
+        <a class="ii"> <i class="fa fa-clock-o" aria-hidden="true"></i> Radno vrijeme: 09:00–21:00</a>
+        <a class="ii" ><i class="fa fa-times" aria-hidden="true"></i> Nedeljom ne radimo</a>
+        <div class="visitUs">
+            <p> Zapratite nas na: </p>
+            <a class="vu" href="https://www.facebook.com/katharsisMNE"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a> 
+            <a class="vu"  href="https://www.instagram.com/katharsismontenegro/?igshid=YmMyMTA2M2Y="> <i class="fa fa-instagram" aria-hidden="true"></i></a> 
+            <a class="vu"   href="https://www.youtube.com/channel/UC5bDuzwPKFmv07gr_7vOXHg"> <i class="fa fa-youtube" aria-hidden="true"></i></a> 
+        
+        </div>
+    
+    
+    </div>
+    <div class="contactForm"> 
+
+        <form action="https://formsubmit.co/mijatovicmitar71@gmail.com" method="POST" action="https://formsubmit.co/c277d8d5f1ett209149848e390b9b5cc">
+            <h3> Posaljite nam e-mail</h3>
+            <input type="hidden" name="_subject" value="Nova poruka sa www.katharsismne.me">
+            <input type="email" name="email" placeholder="Unesite Vasu e-mail adresu" required>
+            <input type="text" name="name" placeholder="Unesite Vase ime" required>
+            <textarea type="text" name="message" placeholder="Napisite Vasu poruku ovdje" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit">Posaljite</button>
+       </form>
+    </div>
+</div>
+
+</div>
+
+<footer>
+    <p>Mijatovic Mitar &copy; 2022 Sva prava zadrzana.</p>
+</footer>
+
+</div>
+</div>
+    
+
+            <script src="./index.js"> </script>
+</body>
+
+</html>

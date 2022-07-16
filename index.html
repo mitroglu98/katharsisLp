@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <title>Katharsis LP</title>
+</head>
+<body>
+    
+    
+ <div class="header">
+   
+      <label class="l1">
+        <input type="checkbox">
+        <span onclick="topFunction()" class="menu"> <span class="hamburger"></span> </span>
+        <ul>
+            <li><a class="goto" href="#bo">Best offer</a></li>
+            <li><a  class="goto"href="#au">About us</a></li>
+            <li><a class="goto" href="#oo">Offers</a></li>
+            <li><a class="goto" href="#co">Contact</a></li>
+        </ul>
+        </label>
+        <label class="l2">
+            <span class="menu">  <select class="langg" name="language" onchange="countryHandler(this.value)">
+                <option class="opt" value="none" selected disabled hidden>Lang</option>
+                <option class="opt" onclick="window.location.assign('home.html')">MNE</option> 
+                <option class="opt" onclick="window.location='index.html'">ENG</option> 
+              </select> </span>
+
+        </label>
+   
+    <ul class="headerUl">
+        <li class="headerLi" ><a href="#bo">Best offer</a></li>
+        <li class="headerLi" ><a href="#au">About us</a></li>
+        <li class="headerLi" ><a href="#oo">Offers</a></li>
+        <li class="headerLi" ><a href="#co">Contact</a></li>
+
+        <select class="langg" name="language" onchange="countryHandler(this.value)">
+            <option value="none" selected disabled hidden>Lang</option>
+            <option onclick="window.location.assign('home.html')">MNE</option> 
+            <option onclick="window.location='index.html'">ENG</option> 
+          </select> 
+        
+      </ul>
+        <video autoplay="autoplay" loop="loop" muted="" data-autoplay="" playsinline=""  class="video">
+            <source src="./Images/cropped.mp4" type="video/mp4">
+            <source src="./Images/cropped.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+          <div class="hello">
+            <marquee direction="right" scrollamount="7" loop="1" behavior="slide" class="marka">Katharsis Wellness & Health</marquee>
+            <!-- <marquee direction="right" scrollamount="7" loop="1" behavior="slide"class="hoVb">Home of wellbeing</marquee> -->
+          </div>   
+         
+          
+      
+
+    </div>
+
+    <div class="bestOffer" id="bo"> 
+        <p class="aboutBestOffer">Total Body Design</p>
+        <p class="aboutBestOffer2">body shaping center</p>
+        <p class="naslov">BEST OFFER</p>
+        <div class="leftSide">
+            <p class="bestOfferOpis">We will make sure that you get rid of irregularities on your body thanks to our professional staff, top devices and effective treatments.Tightening the skin of the body, reducing the volume of critical areas and fat deposits, reducing cellulite is possible with non-invasive procedures:</p>
+            <ul class="rightSideUL">
+                <li class="rightSideLi">* Endospheres therapy</li>
+                <li class="rightSideLi">* LPG treatments</li>
+                <li class="rightSideLi">* Lymphatic drainage</li>
+                <li class="rightSideLi">* Cavitation</li>
+                <li class="rightSideLi">* Body wrap</li>
+        
+            </ul>
+            
+
+        </div>
+
+        <div class="rightSide" style="margin-top:-3%;">
+            <video  autoplay="autoplay" loop="loop" muted="" data-autoplay="" playsinline=""class="endosphere">
+                <source src="./Images/Endosphere.mp4" type="video/mp4">
+                <source src="./Images/Endosphere.mp4" type="video/ogg">
+              </video>
+            
+
+        </div>
+
+
+    </div>
+
+    <div class="aboutUs" id="au">
+
+        <div class="leftSide">
+            <p class="aboutNaslov" > About Us</p>
+            <p class="about">The KATHARSIS Wellness & Health concept was launched in 1998. 
+                It has been closely focused and applicable in the hotel offer since 2006, which makes it a pioneer in Montenegro when it comes to wellness offers.<br> Today, the KATHARSIS Wellness & Health concept is one of the best examples of an integrated and holistic approach to wellness services in the context of the hotel offer in Montenegro.
+                It is based on the provision of classic high <br> quality services (various types of massages, aesthetic treatments, nutrition and physical activity) and on individually designed facial and body care programs (anti-aging, detox, slimming, etc.).
+                
+                </p>
+        </div>
+
+        <div class="rightSide" id="logoo">
+        
+            <img class="aboutSlika" src="./Images/logo.png" /> 
+        </div>
+
+
+    </div>
+
+    <div class="ourOffer" id="oo"> 
+    <p class="ourOfferr">OUR OFFER</p>
+    <p class="ourOfferOpis"> Non-invasive facial treatments, body shaping treatments
+        and wellness offers are everything you need for a body you are happy with, as well as a youthful face.</p>
+
+
+        <div class="row"> 
+            <div class="column">
+                <img  src="./Images/Diagnosis and dietetics.jpg">
+                <div class="centered" id="myImg"> Diagnosis and dietetics <p>Click to read more informations</p> </div>
+                <div id="myModal" class="modal">
+
+               
+                    <span class="close">&times;</span>
+    
+            
+                    <div class="modal-content" id="img01">
+                    <p class="modalOpis">
+                        Calories in regard to the BIA report..BIA diagnostics, diagnostics of functional and energy state of the body, food intolerance test, individual dietary recommendation.
+                    </p>
+                    </div>
+
+                    <div id="caption">Diagnosis and dietetics</div>
+                  </div>
+            </div>
+            <div class="column"> 
+    <img src="./Images/Medical cosmetology.jpg"> 
+        <div class="centered" id="myImg2">Medical cosmetology <p>Click to read more informations</p></div>
+        <div id="myModal2" class="modal">
+
+            <span class="close">&times;</span>
+
+            <div class="modal-content" id="img01">
+            <p class="modalOpis">
+                <strong>Global lift</strong>  – redefines the face in key places chin-neck-cheekbones and compensates for the lost volume, restoring the youthful contour of the face.
+
+<br>
+
+<strong>Corrective</strong> – It stimulates the skin's natural mechanism to replace lost volume. Corrects deep wrinkles and expressive lines quickly and effectively. The treatment provides new exfoliating power, greater filling power and stronger prevention of contractions.
+<br>
+<strong>Timeless prodigy</strong> - Luxury and science are combined to create this miraculous anti-aging treatment. This exclusive treatment is inspired by the most sophisticated beauty techniques. Suitable for all skin types and formulated with over 25 highly concentrated ingredients, selected to block the aging process. <a href="https://skeyndor.com/en/">Read more</a>
+            </p>
+            </div>
+
+            <div id="caption2">Medical cosmetology</div>
+          </div>
+
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="column"> 
+                <div class="centered" id="myImg3"> Body shaping center<p>Click to read more informations</p></div>
+                <img src="./Images/Body shaping center.jpg"> 
+                <div id="myModal3" class="modal">
+
+                    <span class="close">&times;</span>
+        
+                    <div class="modal-content" id="img01">
+                    <p class="modalOpis">
+                       <strong>LPG</strong> - Body shaping, skin tightening, drainage, water retention, skin elasticity, relaxation, fat reduction, cellulite reduction. <a href="https://www.endermologie.com/en/">Read more</a>
+                        <br>
+                        <strong>Endospheres</strong> - Endospheres therapy is an innovative procedure for the face and body, which gives fantastic results in rejuvenating the face, neck and décolleté, as well as in shaping the body, increasing tone, reducing cellulite. <a href="https://www.endospheres.com/">Read more</a>
+                        Our specially designed body treatments inspired by the power of nature, with body wrap and massage will help You in fight against cellulite and to reach the desired body.
+                        <br>
+                        <strong>CO2 therapy</strong> - Carbofit Carbofit uses the positive effect of carbon dioxide, enabling tissues to be better supplied with oxygen and nutrients, which speeds up the regeneration process. It is used in: circulatory disorders, sports rehabilitation, weight loss programs.
+                        <br> <br>
+                        <strong>Kavitacija</strong> - is non surgical, non invasive method, which literally melts the fat and breaks up cellulite.
+                    </p>
+                    </div>
+    
+                    <div id="caption3">Body shaping center</div>
+                  </div>
+            </div>
+            <div class="column">
+                <div class="centered" id="myImg4"> Wellness<p>Click to read more informations</p></div>
+            <img src="./Images/Wellness.jpg"> 
+            <div id="myModal4" class="modal">
+
+              
+                <span class="close">&times;</span>
+    
+                <div class="modal-content" id="img01">
+                <p class="modalOpis">
+                    Allow yourself to enjoy the diverse offer of our massages. For sensitive and painful conditions, the solution is therapeutic-medical massages, for all those who have an active lifestyle, we recommend sports and Katharsis massage. And to awaken your senses, choose different massages and rituals:
+                    <br> 
+                    <strong>SPA EXPERIENCE </strong>-
+                     The combination of bamboo , lotus flower and water lily aroma with a combination of movements will enable a state of deep peace and balance.
+                     <br> 
+                     <strong> MEDITERRANEAN ORIGINS</strong>-
+                    (massage cream with cannabis extract, shea butter and vitamin E capsules, which dissolve, will have a soothing and anti-inflammatory effect on the skin.)
+                </p>
+                </div>
+    
+                <div id="caption4">Wellness</div>
+              </div>    
+            </div>
+            <div class="columnn">
+                <div class="centered" id="myImg5"> PHYSICAL THERAPY AND REHABILITATION<p>Click to read more informations</p></div>
+            <img src="./Images/doktor.png"> 
+            <div id="myModal5" class="modal">
+
+                <span class="close">&times;</span>
+    
+                <div class="modal-content" id="img01">
+                <p class="modalOpis">
+                    Solve the problem of: pain in the spine (neck, lumbar, chest), disc herniation, sciatica, radiculopathy with the most modern approach, with the best treatment effects we have in offer. </p> 
+        <ul >
+            <li> <span> Acupuncture</span></li>
+            <li> <span>Chiropractic</span></li>
+            <li> <span>Infiltration with hyaluronic acid</span></li>
+            <li><span>Collagen</span> </li>
+            <li> <span>Vitamin therapy</span></li>
+            <li> <span>Mesotherapy of pain - PROLO therapy </span></li>
+            <li> <span>Pasma PRP</span></li>
+            <li><span>Setting Atlas - atlasprofilax method</span></li>
+        </ul>   
+                </p>
+                </div>
+    
+                <div id="caption5"> Physical therapy and rehabilitation</div>
+              </div>    
+            </div>
+        </div>
+        
+            
+        
+
+
+
+
+
+    </div>
+  
+<div class="contactUs" id="co"> 
+   
+  <div class="holy-grail">
+  <div class="holy-grail-body">
+    
+
+<div class="holy-grail-content">
+    <p class="cu"> Contact us </p>
+    <div class="info">
+        
+    
+        <a class="ii" href="tel:+382 33 474 500"> <i class="fa fa-fax"></i>+382 33 474 500 </a>
+        <a class="ii" href="tel:+382 69 982 004"> <i class="fa fa-phone"></i> +382 69 982 004</a>
+        <a class="ii" href="mailto:mijatovicmitar71@gmail.com"> <i class="fa fa-envelope"></i> katharsismontenegro@gmail.com </a>
+        <a class="ii" href="https://www.google.com/maps/place/Katharsis+Wellness+%26+Health/@42.2869113,18.8438101,15z/data=!4m5!3m4!1s0x0:0x3f4ac1265ec0d4b0!8m2!3d42.2869113!4d18.8438101?hl=sr"> <i class="fa fa-map-marker" aria-hidden="true"></i> Hotel Slovenska Plaza, Budva </a>
+        <a class="ii" > <i class="fa fa-clock-o" aria-hidden="true"></i> Work hours 09:00–21:00</a>
+        <a class="ii" ><i class="fa fa-times" aria-hidden="true"></i> Sunday closed</a>
+        <div class="visitUs">
+            <p> Visit us on: </p>
+            <a class="vu"  href="https://www.facebook.com/katharsisMNE"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a> 
+            <a class="vu" href="https://www.instagram.com/katharsismontenegro/?igshid=YmMyMTA2M2Y="> <i class="fa fa-instagram" aria-hidden="true"></i></a> 
+            <a class="vu" href="https://www.youtube.com/channel/UC5bDuzwPKFmv07gr_7vOXHg"> <i class="fa fa-youtube" aria-hidden="true"></i></a> 
+        
+        </div>
+    
+    
+    </div>
+    <div class="contactForm"> 
+
+        <form action="https://formsubmit.co/mijatovicmitar71@gmail.com" method="POST" action="https://formsubmit.co/c277d8d5f1ett209149848e390b9b5cc">
+            <h3> Send us e-mail</h3>
+            <input type="hidden" name="_subject" value="New message from katharsismne.me">
+            <input type="email" name="email" placeholder="Enter your email Address" required>
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <textarea type="text" name="message" placeholder="Write your message here" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit">Send</button>
+       </form>
+    </div>
+</div>
+
+</div>
+
+<footer>
+    <p>Mijatovic Mitar &copy; 2022 All rights reserved.</p>
+</footer>
+
+</div>
+</div>
+    
+
+            <script src="./index.js"> </script>
+</body>
+
+</html>
