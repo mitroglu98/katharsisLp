@@ -211,7 +211,7 @@ footer {
   flex: 1 1 auto;
   align-items: flex-start;
 }
-details{
+.contactUs{
   width: 100%;
   display:flex;
   flex: content;
