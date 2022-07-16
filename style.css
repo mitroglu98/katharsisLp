@@ -104,23 +104,23 @@ body,html{
     text-shadow: 2px 2px 4px #000000;
     width: 70%;
   }
-  .header{
+  header{
     width: 100%;
   box-sizing: border-box;
   }
-.bestOffer{
+main{
 width: 100%;
 box-sizing: border-box;
 }
 #logoo{
   margin-top:7%;
 }
-.aboutUs{
+section{
   width: 100%;
   display: flex;
   box-sizing: border-box;
 }
-.ourOffer{
+article{
   margin-top:5%;
   width: 100%;
   box-sizing: border-box;
@@ -211,7 +211,7 @@ footer {
   flex: 1 1 auto;
   align-items: flex-start;
 }
-.contactUs{
+details{
   width: 100%;
   display:flex;
   flex: content;
@@ -410,7 +410,7 @@ margin-bottom:0;
   color:#0f356e;
   text-align: center;
 }
-.ourOffer p, h1{
+article p, h1{
   text-align: center;
 }
 .ourOfferOpis{
@@ -682,12 +682,12 @@ li span {
 #logoo{
   margin-top:0;
 }
-.header{
+header{
   width: 100%;
 }
 
 
-.bestOffer{
+main{
   flex-direction: column;
 
 }
@@ -699,7 +699,7 @@ li span {
   background: linear-gradient(180deg, rgba(170,145,95,0.2)0%, rgba(170,145,95,0.6)100%),  
   linear-gradient(180deg, rgba(170,145,95,0.2)0%, transparent 100%);
 }
-.aboutUs{
+section{
   flex-direction: column;
 }
 .leftSide{
