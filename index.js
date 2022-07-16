@@ -93,9 +93,13 @@ captionText2.onclick = function() {
   });
 
   function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    // document.body.scrollTop = 0;
+    // document.documentElement.scrollTop = 0;
+
+    const el = document.scrollingElement || document.documentElement
+     el.scrollTop = 0;
   }
+  
 
     function changeLanguage(lang) {
       location.hash = lang;
