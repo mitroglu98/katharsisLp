@@ -337,6 +337,7 @@ form button{
   color:wheat;
 }
 .rightSideLi{
+  font-size:20px;
   margin-left:34%;
   margin-top:2%;
   list-style-type: none;
@@ -387,7 +388,7 @@ margin-bottom:0;
 .bestOfferOpis{
   width: 80%;
   margin-left:10%;
-  font-size: 16px;;
+  font-size: 22px;;
   text-align: left;
   color:#0f356e;
 }
@@ -402,7 +403,7 @@ margin-bottom:0;
   border-radius: 5px;
 }
 .about{
-  font-size: 16px;;
+  font-size: 22px;
   margin-left: 20%;
   margin-right: 5%;
   text-shadow: -2px 1px 2px rgba(256, 256, 256, 0.75);
@@ -414,7 +415,9 @@ article p, h1{
   text-align: center;
 }
 .ourOfferOpis{
-  font-size: 16px;;
+  width: 80%;
+  margin-left:7%;
+  font-size: 22px;
   font-weight: 400;
 }
 
@@ -464,14 +467,14 @@ article p, h1{
   linear-gradient(180deg, rgba(0,0,0,0.2)0%, transparent 100%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 16px;
+  font-size: 22px;
   color:wheat;
   box-sizing: border-box;
   font-weight: bolder;
 }
 .centered p{
   margin-top:0;
-  font-size: 13px;
+  font-size: 16px;
   color:white;
 }
 .modal {
@@ -487,8 +490,15 @@ article p, h1{
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.9);
 }
-
-
+/* .modal-content ul{
+  font-size:16px;
+  font-weight: bolder;
+  color:black;
+} */
+.modal-content ul li{
+  font-size:16px;
+  font-weight: bolder;
+}
 .modal-content {
   margin: auto;
   display: block;
@@ -606,10 +616,14 @@ margin-right:5px;
   transition: 0.5s;
 }
 .centered{
-  font-size: 16px;;
+  font-size: 16px;
+}
+.centered p{
+  font-size: 13px;
 }
 .about{
   margin-top:5%;
+  font-size: 16px;
 }
 .overlay-content {
   position: relative;
@@ -619,9 +633,10 @@ margin-right:5px;
   margin-top: 30px; 
 }
 .rightSideLi{
-  list-style-type: disc;
+  list-style-type: none;
   display: list-item;
   margin-left:5%;
+  font-size:16px;
 display: flex;
 flex-direction: row;
 }
@@ -654,6 +669,7 @@ margin-bottom: 0;
   word-wrap: break-word; */
   text-align: left;
   text-shadow: -2px 1px 2px rgba(256, 256, 256, 0.75);
+    font-size: 16px;
 }
 .rightSide li{
   list-style: square;
@@ -721,6 +737,7 @@ section{
   margin-left:-5%;
 }
 .ourOfferOpis{
+  font-size:16px;
   text-align: left;
   width: 90%;
   margin-left:5%;
