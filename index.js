@@ -111,4 +111,3 @@ function countryHandler(value) {
   }
 
 }
-dataLayer.push({event: "gtm.init", ...})
