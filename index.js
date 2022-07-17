@@ -111,10 +111,4 @@ function countryHandler(value) {
   }
 
 }
-
-$('[lang="es"]').hide();
-
-$('#switch-lang').click(function() {
-  $('[lang="es"]').toggle();
-  $('[lang="en"]').toggle();
-});
+dataLayer.push({event: "gtm.init", ...})
